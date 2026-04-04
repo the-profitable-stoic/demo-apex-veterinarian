@@ -1,0 +1,584 @@
+{
+  "business": {
+    "name": "Apex Veterinarian",
+    "phone": "555-vet-r92",
+    "category": "veterinarian",
+    "city": "Asheville",
+    "state": "NC"
+  },
+  "design": {
+    "preset": {
+      "id": "veterinarian-red-charge",
+      "categoryGroup": "veterinarian",
+      "name": "Red Charge",
+      "recipeFile": "veterinarian/red-charge.astro",
+      "colors": {
+        "primary": "#059669",
+        "primaryDark": "#047857",
+        "primaryLight": "#c1e5da",
+        "secondary": "#05875f",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#059669",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "veterinarian/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Asheville Veterinarian Care",
+      "heroSubline": "Compassionate veterinary services for Asheville pets. We understand the unique needs of mountain-living animals.",
+      "aboutTitle": "Our Asheville Veterinary Story",
+      "aboutText": [
+        "Founded in 2012, Apex Veterinarian has grown from a small practice to Asheville's most trusted animal care provider. Our roots run deep in Buncombe County, where we've cared for generations of local pets.",
+        "We believe in personalized medicine that considers each pet's lifestyle - whether they're hiking the Blue Ridge trails or lounging in a Montford historic home. Our team stays current on the latest treatments while maintaining old-fashioned compassion.",
+        "From sponsoring River Arts District pet events to volunteering at Buncombe County shelters, we're committed to Asheville's four-legged community members."
+      ],
+      "valueProps": [
+        {
+          "title": "Mountain Climate Experts",
+          "description": "We understand how Asheville's seasonal changes affect pets, from winter joint pain to summer parasite risks."
+        },
+        {
+          "title": "Same-Day Appointments",
+          "description": "Urgent care slots reserved daily for Asheville pets needing prompt attention."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "Familiar with Asheville's unique pet needs, from historic home hazards to trail safety."
+        },
+        {
+          "title": "Fear-Free Visits",
+          "description": "Special techniques to ease anxiety for pets stressed by vet visits."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Pet's Visit Today",
+      "ctaSubline": "Our Asheville team is ready to provide compassionate care for your furry family member."
+    },
+    "services": [
+      {
+        "slug": "preventive-care",
+        "name": "Preventive Care",
+        "shortDescription": "Tailored wellness plans for Asheville pets at every life stage.",
+        "description": "Our preventive care program addresses the specific health risks Asheville pets face. The mountain climate brings unique challenges - from increased tick exposure on Blue Ridge Parkway hikes to seasonal allergies exacerbated by pollen counts.\n\nWe customize each wellness plan based on your pet's lifestyle. Urban pets in Downtown Asheville have different needs than rural animals in surrounding farmlands. All plans include comprehensive physical exams, parasite prevention tailored to our region, and nutritional counseling considering local pet food availability.\n\nFor senior pets, we pay special attention to joint health affected by Asheville's cold winters. Puppies and kittens receive socialization guidance suited to our community's active outdoor culture.",
+        "process": [
+          "Step 1: Complete health history review including your pet's local activities",
+          "Step 2: Nose-to-tail physical examination with climate-specific checks",
+          "Step 3: Customized prevention plan discussion",
+          "Step 4: Follow-up schedule based on seasonal Asheville risks"
+        ],
+        "benefits": [
+          "Early detection of regional health issues",
+          "Personalized parasite protection",
+          "Lifestyle-appropriate vaccination plans",
+          "Nutrition guidance using local products"
+        ],
+        "faq": [
+          {
+            "question": "How often should my Asheville pet have wellness exams?",
+            "answer": "We recommend biannual visits due to our rapidly changing mountain seasons. This helps us catch seasonal health changes before they become serious."
+          },
+          {
+            "question": "Do you offer flea/tick prevention for hiking pets?",
+            "answer": "Yes, we stock and recommend extra-strength preventatives for pets who frequent Asheville's wooded trails and parks."
+          }
+        ]
+      },
+      {
+        "slug": "dental-care",
+        "name": "Dental Care",
+        "shortDescription": "Comprehensive oral health services for Asheville pets.",
+        "description": "Dental health directly impacts your pet's overall wellbeing, especially in Asheville where outdoor activities demand peak health. Our dental services go beyond basic cleanings to address regional concerns like staining from mineral-rich mountain water or damage from chewing local sticks and pinecones.\n\nWe use digital dental radiography to detect hidden problems beneath the gumline. Many Asheville pets develop unique dental issues from chewing on river rocks in the French Broad or sticks in carrier park. Our team is experienced in identifying and treating these location-specific problems.\n\nAfter any procedure, we provide recovery instructions tailored to Asheville's climate - keeping surgical sites clean during rainy seasons or protecting healing gums from winter dryness.",
+        "process": [
+          "Step 1: Oral health assessment with local risk evaluation",
+          "Step 2: Digital imaging if needed",
+          "Step 3: Gentle cleaning using pet-friendly techniques",
+          "Step 4: Home care instructions for our climate"
+        ],
+        "benefits": [
+          "Prevention of painful dental disease",
+          "Fresh breath for closer companionship",
+          "Early detection of oral tumors",
+          "Improved overall health and longevity"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if my pet has dental pain?",
+            "answer": "Look for changes in eating habits, especially with Asheville's harder kibbles. Dropping food or chewing on one side are common signs we see in local pets."
+          },
+          {
+            "question": "Are dental cleanings safe for older Asheville pets?",
+            "answer": "We take extra precautions with senior pets, including pre-anesthetic bloodwork and climate-controlled recovery areas to ensure safety."
+          }
+        ]
+      },
+      {
+        "slug": "senior-pet-care",
+        "name": "Senior Pet Care",
+        "shortDescription": "Compassionate geriatric care for Asheville's aging pets.",
+        "description": "Asheville's active pet community means many animals stay vigorous into their golden years, but they still need specialized care. Our senior wellness program addresses the challenges of aging in our mountain climate, where cooler temperatures can exacerbate arthritis and seasonal changes affect older pets more dramatically.\n\nWe conduct thorough senior exams that include joint assessments important for pets navigating Asheville's hilly terrain. Bloodwork helps detect early signs of conditions common in mature pets, with special attention to thyroid function affected by our elevation.\n\nFor pets with mobility issues, we offer advice on modifying Asheville homes - from adding traction to historic hardwood floors to creating comfortable resting areas away from drafty windows in older houses. Our pain management plans consider both pharmaceutical and natural options available locally.",
+        "process": [
+          "Step 1: Comprehensive geriatric exam with mobility assessment",
+          "Step 2: Diagnostic testing tailored to breed and lifestyle",
+          "Step 3: Custom care plan development",
+          "Step 4: Regular monitoring with seasonal adjustments"
+        ],
+        "benefits": [
+          "Early detection of age-related conditions",
+          "Improved comfort in mountain climate",
+          "Tailored nutrition plans",
+          "Enhanced quality of life"
+        ],
+        "faq": [
+          {
+            "question": "At what age is my pet considered senior?",
+            "answer": "In Asheville's active pet community, we typically consider cats senior at 11 and dogs at 7, though this varies by breed and lifestyle."
+          },
+          {
+            "question": "How can I help my arthritic dog in winter?",
+            "answer": "We recommend heated beds, non-slip rugs on hardwood floors common in Asheville homes, and gentle indoor exercises during cold spells."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-care",
+        "name": "Emergency Care",
+        "shortDescription": "Urgent veterinary services for Asheville pet emergencies.",
+        "description": "When accidents happen on Asheville's trails or sudden illness strikes, our emergency team provides prompt, skilled care. We're equipped to handle common local emergencies like hiking injuries on the Mountains-to-Sea Trail, toxin exposures from native plants, or winter-related conditions.\n\nOur facility maintains extended hours to serve Asheville pet owners when they need us most. We stock antivenom for snake bites common in our region and have experience treating altitude-related issues in flatland pets new to the area.\n\nFor after-hours emergencies, our on-call system ensures an Asheville-based veterinarian is always available. We coordinate closely with regional specialists when advanced care is needed, streamlining referrals for Buncombe County pet owners.",
+        "process": [
+          "Step 1: Immediate triage assessment",
+          "Step 2: Stabilization procedures as needed",
+          "Step 3: Diagnostic testing using in-house equipment",
+          "Step 4: Treatment plan and follow-up coordination"
+        ],
+        "benefits": [
+          "Quick response to critical situations",
+          "Local knowledge of regional hazards",
+          "Extended hours for urgent needs",
+          "Seamless specialist referrals"
+        ],
+        "faq": [
+          {
+            "question": "What are common Asheville pet emergencies?",
+            "answer": "We frequently see porcupine quill injuries, hiking trauma, mushroom toxicoses from our forests, and winter exposure cases in outdoor pets."
+          },
+          {
+            "question": "Should I call before bringing in an emergency?",
+            "answer": "If possible, yes - this helps us prepare. But in truly critical situations, come immediately and we'll assess upon arrival."
+          }
+        ]
+      },
+      {
+        "slug": "behavioral-consultations",
+        "name": "Behavioral Consultations",
+        "shortDescription": "Solutions for Asheville pets' behavioral challenges.",
+        "description": "Behavior issues often stem from environmental factors unique to Asheville living. Our behavioral consultations address problems like leash reactivity developed on crowded urban trails, separation anxiety in downtown apartments, or noise phobias triggered by local festivals.\n\nWe begin with a thorough assessment of your pet's environment - from the layout of your historic Montford home to your daily walking routes. Solutions incorporate Asheville's resources, recommending local trainers, appropriate outdoor spaces for rehabilitation, and regionally available calming products.\n\nFor pets struggling with Asheville's tourist season crowds or fireworks from downtown events, we create customized desensitization plans. We also advise on pet-proofing for common local home features like exposed beams in craftsman houses or steep staircases in hillside properties.",
+        "process": [
+          "Step 1: Comprehensive behavior history review",
+          "Step 2: Home environment assessment",
+          "Step 3: Customized behavior modification plan",
+          "Step 4: Follow-up support and adjustment"
+        ],
+        "benefits": [
+          "Improved human-pet relationships",
+          "Reduced stress for Asheville living",
+          "Custom solutions for local challenges",
+          "Referrals to trusted local resources"
+        ],
+        "faq": [
+          {
+            "question": "Can you help with my dog's leash reactivity on urban trails?",
+            "answer": "Absolutely. We've helped many Asheville pets adapt to crowded conditions on the French Broad River Greenway and other popular walking paths."
+          },
+          {
+            "question": "Do you prescribe medication for anxiety?",
+            "answer": "When appropriate, we may recommend medication alongside behavior modification, especially for noise phobias during Asheville's frequent festivals."
+          }
+        ]
+      },
+      {
+        "slug": "nutritional-counseling",
+        "name": "Nutritional Counseling",
+        "shortDescription": "Custom feeding plans using Asheville's local resources.",
+        "description": "Proper nutrition looks different for Asheville pets based on their activity levels, age, and health status. Our nutritional counseling considers local factors like altitude adjustments for new residents' pets and calorie needs for animals hiking our mountain trails.\n\nWe're familiar with Asheville's unique pet food market, from downtown boutique shops to farmers market vendors. Recommendations include locally available options that meet your pet's specific requirements. For pets with food sensitivities, we suggest regional protein sources and advise on seasonal ingredient changes.\n\nWeight management plans account for Asheville's climate - winter calorie needs for outdoor pets versus summer hydration strategies. We also provide guidance on safe human foods from Asheville's vibrant culinary scene that pets can occasionally enjoy.",
+        "process": [
+          "Step 1: Complete dietary history review",
+          "Step 2: Body condition assessment",
+          "Step 3: Customized feeding plan creation",
+          "Step 4: Follow-up weight checks and adjustments"
+        ],
+        "benefits": [
+          "Optimal health through proper nutrition",
+          "Weight management for local lifestyles",
+          "Guidance on local food options",
+          "Improved energy and vitality"
+        ],
+        "faq": [
+          {
+            "question": "How should I adjust my pet's diet for winter?",
+            "answer": "Outdoor pets may need more calories in cold months, while indoor pets often need less. We'll create a seasonal plan based on your pet's routine."
+          },
+          {
+            "question": "Are Asheville's raw food diets safe?",
+            "answer": "We can advise on safely incorporating local raw options if desired, with precautions specific to our region's food sources."
+          }
+        ]
+      },
+      {
+        "slug": "pet-travel-certificates",
+        "name": "Pet Travel Certificates",
+        "shortDescription": "Health certifications for Asheville pets on the move.",
+        "description": "Whether you're escaping to warmer climates during Asheville winters or bringing a new pet to our mountains, we provide all necessary travel documentation. Our health certificates meet interstate and international requirements, with special attention to altitude considerations for pets leaving our region.\n\nWe're familiar with airline policies from AVL and surrounding airports, advising on carrier requirements and stress reduction strategies. For pets traveling to Asheville, we provide guidance on acclimating to our elevation and seasonal changes.\n\nCertificates include thorough exams to ensure your pet is fit for travel, with recommendations tailored to your destination. We also advise on local boarding options and pet sitters for times when travel isn't pet-friendly.",
+        "process": [
+          "Step 1: Pre-travel health assessment",
+          "Step 2: Destination-specific risk evaluation",
+          "Step 3: Documentation preparation",
+          "Step 4: Travel tips and follow-up"
+        ],
+        "benefits": [
+          "Compliance with travel regulations",
+          "Peace of mind when transporting pets",
+          "Destination-specific health advice",
+          "Local boarding recommendations"
+        ],
+        "faq": [
+          {
+            "question": "How soon before travel should my pet be examined?",
+            "answer": "Most certificates require exams within 10 days of travel, but some destinations have different rules. We'll advise based on your itinerary."
+          },
+          {
+            "question": "Do you help with emotional support animal documentation?",
+            "answer": "We provide legitimate ESA paperwork when medically appropriate, following all current regulations for Asheville residents."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith K.",
+        "rating": 5,
+        "service": "Emergency Care",
+        "text": "When my golden retriever ate mushrooms on our Bent Creek hike, Apex got us in immediately. They identified the exact species and had the antidote ready. Their knowledge of local toxins saved my dog's life.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Senior Pet Care",
+        "text": "Dr. Wilson's winter arthritis plan for our 14-year-old lab has been transformative. The heated bed recommendation and joint supplements available at West Asheville's pet store have him moving comfortably again.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Sophie T.",
+        "rating": 5,
+        "service": "Behavioral Consultations",
+        "text": "After adopting a rescue terrified of downtown noises, Apex's behaviorist helped us gradually acclimate her using recordings of Asheville street sounds. Now she handles festivals and buskers like a pro.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "James L.",
+        "rating": 5,
+        "service": "Dental Care",
+        "text": "They discovered my cat's tooth resorption during a routine cleaning - a condition common in older Asheville cats. The painless extraction and recovery plan made all the difference in her comfort.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Natalie W.",
+        "rating": 5,
+        "service": "Nutritional Counseling",
+        "text": "Our vegan household wanted ethical pet food options. Apex helped us find balanced local products at the WNC Farmers Market that keep our dogs thriving on plant-based nutrition.",
+        "date": "2024-08-03"
+      },
+      {
+        "name": "Derrick P.",
+        "rating": 5,
+        "service": "Preventive Care",
+        "text": "Their tick prevention protocol for our trail-running border collie is flawless. Three years with Apex and we've never had a tick-borne illness, despite daily runs on the Mountains-to-Sea Trail.",
+        "date": "2024-06-29"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Asheville Veterinarian | Trusted Local Pet Care",
+        "description": "Compassionate veterinary services for Asheville pets. Preventive care, emergency services, and senior pet specialists serving Buncombe County."
+      },
+      "about": {
+        "title": "About Our Asheville Veterinary Practice",
+        "description": "Learn about Apex Veterinarian's commitment to Asheville pets since 2012. Local knowledge meets compassionate care in the Blue Ridge."
+      },
+      "services": {
+        "title": "Veterinary Services in Asheville NC",
+        "description": "Comprehensive pet care services tailored to Asheville's climate and lifestyle. From preventive care to emergency services for Buncombe County pets."
+      },
+      "contact": {
+        "title": "Contact Asheville's Trusted Veterinarian",
+        "description": "Schedule an appointment at Apex Veterinarian in Asheville NC. Compassionate care for your pet in Buncombe County."
+      },
+      "reviews": {
+        "title": "Asheville Pet Owner Experiences",
+        "description": "Read reviews from Buncombe County pet owners about their experiences with Apex Veterinarian's compassionate care."
+      },
+      "service-areas": {
+        "title": "Veterinary Services Near Asheville NC",
+        "description": "Apex Veterinarian serves Asheville and surrounding communities with personalized pet care for the Blue Ridge region."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Asheville",
+        "slug": "asheville-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian proudly serves the pets of Asheville, NC, with top-tier veterinary care tailored to the needs of this vibrant mountain community. Whether your pet needs a routine checkup, emergency care, or specialized treatment, our experienced team is here to help. Asheville's pet-friendly culture makes it a joy to serve local pet owners who prioritize their furry family members' health and well-being.",
+        "localContext": "Asheville is known for its artsy vibe, outdoor recreation, and strong pet-loving community.",
+        "nearbyAreas": [
+          "Weaverville",
+          "Black Mountain",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Weaverville",
+        "slug": "weaverville-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian extends compassionate veterinary care to Weaverville, NC, a charming town just north of Asheville. Our services include wellness exams, vaccinations, dental care, and emergency treatments. Weaverville's tight-knit community values pets as part of the family, and we're honored to support their health needs.",
+        "localContext": "Weaverville offers a small-town feel with easy access to Asheville's amenities.",
+        "nearbyAreas": [
+          "Asheville",
+          "Mars Hill",
+          "Leicester"
+        ]
+      },
+      {
+        "city": "Black Mountain",
+        "slug": "black-mountain-nc",
+        "state": "NC",
+        "content": "At Apex Veterinarian, we provide exceptional veterinary services to Black Mountain, NC, a picturesque town nestled in the Blue Ridge Mountains. From preventive care to advanced diagnostics, we ensure pets in Black Mountain receive the best possible care. The town's scenic beauty and pet-friendly atmosphere make it a wonderful place to serve.",
+        "localContext": "Black Mountain is renowned for its hiking trails, arts scene, and pet-welcoming businesses.",
+        "nearbyAreas": [
+          "Asheville",
+          "Swannanoa",
+          "Montreat"
+        ]
+      },
+      {
+        "city": "Hendersonville",
+        "slug": "hendersonville-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian is proud to serve Hendersonville, NC, offering comprehensive veterinary care for pets in this historic apple-growing region. Our services include routine checkups, surgical procedures, and nutritional counseling. Hendersonville's love for animals aligns perfectly with our mission to provide compassionate, high-quality care.",
+        "localContext": "Hendersonville is famous for its apple orchards, downtown charm, and pet-friendly parks.",
+        "nearbyAreas": [
+          "Flat Rock",
+          "Mills River",
+          "Fletcher"
+        ]
+      },
+      {
+        "city": "Fletcher",
+        "slug": "fletcher-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian provides trusted veterinary services to Fletcher, NC, a growing community near Asheville. We offer everything from wellness exams to emergency care, ensuring pets in Fletcher stay healthy and happy. Fletcher's blend of rural and suburban living makes it an ideal place for pet owners who value top-notch care.",
+        "localContext": "Fletcher is known for its proximity to the Asheville Airport and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Hendersonville",
+          "Arden",
+          "Mills River"
+        ]
+      },
+      {
+        "city": "Arden",
+        "slug": "arden-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian delivers expert veterinary care to Arden, NC, a thriving community south of Asheville. Our services include vaccinations, dental cleanings, and chronic disease management. Arden's mix of residential and commercial growth makes it a key area for pet owners seeking reliable veterinary services.",
+        "localContext": "Arden is a bustling area with easy access to Asheville and Hendersonville.",
+        "nearbyAreas": [
+          "Fletcher",
+          "Skyland",
+          "Biltmore Forest"
+        ]
+      },
+      {
+        "city": "Fairview",
+        "slug": "fairview-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian serves Fairview, NC, with personalized veterinary care tailored to this rural yet upscale community. From preventive health plans to advanced surgical procedures, we cater to the needs of Fairview's pets. The area's rolling farmland and scenic beauty create a peaceful backdrop for pet care.",
+        "localContext": "Fairview is prized for its pastoral landscapes and close-knit community.",
+        "nearbyAreas": [
+          "Asheville",
+          "Black Mountain",
+          "Swannanoa"
+        ]
+      },
+      {
+        "city": "Mills River",
+        "slug": "mills-river-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian is dedicated to serving Mills River, NC, with high-quality veterinary care for pets in this outdoor-loving community. Our services include wellness exams, diagnostics, and surgical care. Mills River's proximity to national forests and rivers makes it a haven for active pets and their owners.",
+        "localContext": "Mills River is a hotspot for outdoor enthusiasts and farm-to-table dining.",
+        "nearbyAreas": [
+          "Hendersonville",
+          "Fletcher",
+          "Etowah"
+        ]
+      },
+      {
+        "city": "Leicester",
+        "slug": "leicester-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian provides compassionate veterinary care to Leicester, NC, a rural community west of Asheville. From routine checkups to emergency services, we ensure pets in Leicester receive attentive care. Leicester's quiet, countryside setting appeals to pet owners who value a slower pace of life.",
+        "localContext": "Leicester offers expansive farmlands and a strong sense of community.",
+        "nearbyAreas": [
+          "Asheville",
+          "Candler",
+          "Weaverville"
+        ]
+      },
+      {
+        "city": "Candler",
+        "slug": "candler-nc",
+        "state": "NC",
+        "content": "Apex Veterinarian serves Candler, NC, with reliable veterinary care for pets in this unincorporated community near Asheville. Our services include vaccinations, spaying/neutering, and geriatric care. Candler's mix of rural charm and convenience makes it a great place for pet owners seeking quality care.",
+        "localContext": "Candler is known for its mountain views and easy access to Asheville.",
+        "nearbyAreas": [
+          "Asheville",
+          "Leicester",
+          "Enka"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "preventive-care": "/images/service-preventive-care.webp",
+      "dental-care": "/images/service-dental-care.webp",
+      "senior-pet-care": "/images/service-senior-pet-care.webp",
+      "emergency-care": "/images/service-emergency-care.webp",
+      "behavioral-consultations": "/images/service-behavioral-consultations.webp",
+      "nutritional-counseling": "/images/service-nutritional-counseling.webp",
+      "pet-travel-certificates": "/images/service-pet-travel-certificates.webp"
+    },
+    "servicesResponsive": {
+      "preventive-care": {
+        "src": "/images/service-preventive-care.webp",
+        "srcset": "/images/service-preventive-care-400w.webp 400w, /images/service-preventive-care-800w.webp 800w, /images/service-preventive-care-1200w.webp 1200w, /images/service-preventive-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dental-care": {
+        "src": "/images/service-dental-care.webp",
+        "srcset": "/images/service-dental-care-400w.webp 400w, /images/service-dental-care-800w.webp 800w, /images/service-dental-care-1200w.webp 1200w, /images/service-dental-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "senior-pet-care": {
+        "src": "/images/service-senior-pet-care.webp",
+        "srcset": "/images/service-senior-pet-care-400w.webp 400w, /images/service-senior-pet-care-800w.webp 800w, /images/service-senior-pet-care-1200w.webp 1200w, /images/service-senior-pet-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-care": {
+        "src": "/images/service-emergency-care.webp",
+        "srcset": "/images/service-emergency-care-400w.webp 400w, /images/service-emergency-care-800w.webp 800w, /images/service-emergency-care-1200w.webp 1200w, /images/service-emergency-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "behavioral-consultations": {
+        "src": "/images/service-behavioral-consultations.webp",
+        "srcset": "/images/service-behavioral-consultations-400w.webp 400w, /images/service-behavioral-consultations-800w.webp 800w, /images/service-behavioral-consultations-1200w.webp 1200w, /images/service-behavioral-consultations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "nutritional-counseling": {
+        "src": "/images/service-nutritional-counseling.webp",
+        "srcset": "/images/service-nutritional-counseling-400w.webp 400w, /images/service-nutritional-counseling-800w.webp 800w, /images/service-nutritional-counseling-1200w.webp 1200w, /images/service-nutritional-counseling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pet-travel-certificates": {
+        "src": "/images/service-pet-travel-certificates.webp",
+        "srcset": "/images/service-pet-travel-certificates-400w.webp 400w, /images/service-pet-travel-certificates-800w.webp 800w, /images/service-pet-travel-certificates-1200w.webp 1200w, /images/service-pet-travel-certificates.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
